@@ -1,0 +1,6 @@
+module Pods_DogBreed {
+  umbrella header "Pods-DogBreed-umbrella.h"
+
+  export *
+  module * { export * }
+}

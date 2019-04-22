@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BFA3C80A2761FAD73E1659C /* libPods-DogBreed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FA61447856C0F7D44CCC9D /* libPods-DogBreed.a */; };
 		F02A7EAA226CBE0B0088DBE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A7EA9226CBE0B0088DBE8 /* AppDelegate.swift */; };
-		F02A7EAC226CBE0B0088DBE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A7EAB226CBE0B0088DBE8 /* ViewController.swift */; };
-		F02A7EAF226CBE0B0088DBE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02A7EAD226CBE0B0088DBE8 /* Main.storyboard */; };
+		F02A7EAC226CBE0B0088DBE8 /* DogBreedListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A7EAB226CBE0B0088DBE8 /* DogBreedListController.swift */; };
 		F02A7EB1226CBE0C0088DBE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02A7EB0226CBE0C0088DBE8 /* Assets.xcassets */; };
 		F02A7EB4226CBE0C0088DBE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02A7EB2226CBE0C0088DBE8 /* LaunchScreen.storyboard */; };
+		F02A7EC2226CC1680088DBE8 /* DogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A7EBD226CC1680088DBE8 /* DogModel.swift */; };
+		F02A7EC3226CC1680088DBE8 /* NetworkProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A7EBE226CC1680088DBE8 /* NetworkProtocols.swift */; };
+		F02A7EC4226CC1680088DBE8 /* DogEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A7EBF226CC1680088DBE8 /* DogEndPoint.swift */; };
+		F02A7EC5226CC1680088DBE8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A7EC0226CC1680088DBE8 /* NetworkManager.swift */; };
+		F02A7EC6226CC1680088DBE8 /* DataGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A7EC1226CC1680088DBE8 /* DataGateway.swift */; };
+		F02A7EC9226CDC820088DBE8 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A7EC8226CDC820088DBE8 /* StoreManager.swift */; };
+		F02A7ECC226CE89C0088DBE8 /* DogModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F02A7ECA226CE89C0088DBE8 /* DogModel.xcdatamodeld */; };
+		F02A7ECF226D051C0088DBE8 /* DogBreedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A7ECE226D051C0088DBE8 /* DogBreedListViewModel.swift */; };
+		F02A7ED2226D08C60088DBE8 /* SubBreedListControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A7ED1226D08C60088DBE8 /* SubBreedListControllerViewController.swift */; };
+		F02A7ED4226D08EB0088DBE8 /* SubBreedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A7ED3226D08EB0088DBE8 /* SubBreedListViewModel.swift */; };
+		F02A7ED7226D0BE80088DBE8 /* DogCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A7ED6226D0BE80088DBE8 /* DogCollectionViewController.swift */; };
+		F02A7ED9226D0CC20088DBE8 /* DogCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A7ED8226D0CC20088DBE8 /* DogCollectionViewModel.swift */; };
+		F02A7EDC226D10760088DBE8 /* DogViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02A7EDA226D10760088DBE8 /* DogViewCell.swift */; };
+		F02A7EDD226D10760088DBE8 /* DogViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F02A7EDB226D10760088DBE8 /* DogViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		853616F678721791165BD84D /* Pods-DogBreed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogBreed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DogBreed/Pods-DogBreed.debug.xcconfig"; sourceTree = "<group>"; };
+		86687D297E5DB154CF0F17D3 /* Pods-DogBreed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogBreed.release.xcconfig"; path = "Pods/Target Support Files/Pods-DogBreed/Pods-DogBreed.release.xcconfig"; sourceTree = "<group>"; };
+		89FA61447856C0F7D44CCC9D /* libPods-DogBreed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DogBreed.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02A7EA6226CBE0B0088DBE8 /* DogBreed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogBreed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02A7EA9226CBE0B0088DBE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F02A7EAB226CBE0B0088DBE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F02A7EAE226CBE0B0088DBE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F02A7EAB226CBE0B0088DBE8 /* DogBreedListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedListController.swift; sourceTree = "<group>"; };
 		F02A7EB0226CBE0C0088DBE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F02A7EB3226CBE0C0088DBE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F02A7EB5226CBE0C0088DBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02A7EBD226CC1680088DBE8 /* DogModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogModel.swift; sourceTree = "<group>"; };
+		F02A7EBE226CC1680088DBE8 /* NetworkProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkProtocols.swift; sourceTree = "<group>"; };
+		F02A7EBF226CC1680088DBE8 /* DogEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogEndPoint.swift; sourceTree = "<group>"; };
+		F02A7EC0226CC1680088DBE8 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F02A7EC1226CC1680088DBE8 /* DataGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataGateway.swift; sourceTree = "<group>"; };
+		F02A7EC8226CDC820088DBE8 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		F02A7ECB226CE89C0088DBE8 /* DogModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DogModel.xcdatamodel; sourceTree = "<group>"; };
+		F02A7ECE226D051C0088DBE8 /* DogBreedListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedListViewModel.swift; sourceTree = "<group>"; };
+		F02A7ED1226D08C60088DBE8 /* SubBreedListControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubBreedListControllerViewController.swift; sourceTree = "<group>"; };
+		F02A7ED3226D08EB0088DBE8 /* SubBreedListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubBreedListViewModel.swift; sourceTree = "<group>"; };
+		F02A7ED6226D0BE80088DBE8 /* DogCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCollectionViewController.swift; sourceTree = "<group>"; };
+		F02A7ED8226D0CC20088DBE8 /* DogCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCollectionViewModel.swift; sourceTree = "<group>"; };
+		F02A7EDA226D10760088DBE8 /* DogViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewCell.swift; sourceTree = "<group>"; };
+		F02A7EDB226D10760088DBE8 /* DogViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DogViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BFA3C80A2761FAD73E1659C /* libPods-DogBreed.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		637E8C9DD444A6D3AAF6B867 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				853616F678721791165BD84D /* Pods-DogBreed.debug.xcconfig */,
+				86687D297E5DB154CF0F17D3 /* Pods-DogBreed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A750249F18DA4193CA5BF61E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89FA61447856C0F7D44CCC9D /* libPods-DogBreed.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F02A7E9D226CBE0B0088DBE8 = {
 			isa = PBXGroup;
 			children = (
 				F02A7EA8226CBE0B0088DBE8 /* DogBreed */,
 				F02A7EA7226CBE0B0088DBE8 /* Products */,
+				637E8C9DD444A6D3AAF6B867 /* Pods */,
+				A750249F18DA4193CA5BF61E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +104,59 @@
 		F02A7EA8226CBE0B0088DBE8 /* DogBreed */ = {
 			isa = PBXGroup;
 			children = (
+				F02A7EBC226CC1510088DBE8 /* NetworkStore */,
+				F02A7EBB226CBED80088DBE8 /* BreedList */,
+				F02A7ED0226D08A00088DBE8 /* SubBreedList */,
+				F02A7ED5226D0BB80088DBE8 /* DogCollection */,
 				F02A7EA9226CBE0B0088DBE8 /* AppDelegate.swift */,
-				F02A7EAB226CBE0B0088DBE8 /* ViewController.swift */,
-				F02A7EAD226CBE0B0088DBE8 /* Main.storyboard */,
 				F02A7EB0226CBE0C0088DBE8 /* Assets.xcassets */,
 				F02A7EB2226CBE0C0088DBE8 /* LaunchScreen.storyboard */,
 				F02A7EB5226CBE0C0088DBE8 /* Info.plist */,
 			);
 			path = DogBreed;
+			sourceTree = "<group>";
+		};
+		F02A7EBB226CBED80088DBE8 /* BreedList */ = {
+			isa = PBXGroup;
+			children = (
+				F02A7EAB226CBE0B0088DBE8 /* DogBreedListController.swift */,
+				F02A7ECE226D051C0088DBE8 /* DogBreedListViewModel.swift */,
+			);
+			path = BreedList;
+			sourceTree = "<group>";
+		};
+		F02A7EBC226CC1510088DBE8 /* NetworkStore */ = {
+			isa = PBXGroup;
+			children = (
+				F02A7EC0226CC1680088DBE8 /* NetworkManager.swift */,
+				F02A7EBE226CC1680088DBE8 /* NetworkProtocols.swift */,
+				F02A7EBF226CC1680088DBE8 /* DogEndPoint.swift */,
+				F02A7EC1226CC1680088DBE8 /* DataGateway.swift */,
+				F02A7EBD226CC1680088DBE8 /* DogModel.swift */,
+				F02A7EC8226CDC820088DBE8 /* StoreManager.swift */,
+				F02A7ECA226CE89C0088DBE8 /* DogModel.xcdatamodeld */,
+			);
+			path = NetworkStore;
+			sourceTree = "<group>";
+		};
+		F02A7ED0226D08A00088DBE8 /* SubBreedList */ = {
+			isa = PBXGroup;
+			children = (
+				F02A7ED1226D08C60088DBE8 /* SubBreedListControllerViewController.swift */,
+				F02A7ED3226D08EB0088DBE8 /* SubBreedListViewModel.swift */,
+			);
+			path = SubBreedList;
+			sourceTree = "<group>";
+		};
+		F02A7ED5226D0BB80088DBE8 /* DogCollection */ = {
+			isa = PBXGroup;
+			children = (
+				F02A7ED6226D0BE80088DBE8 /* DogCollectionViewController.swift */,
+				F02A7ED8226D0CC20088DBE8 /* DogCollectionViewModel.swift */,
+				F02A7EDA226D10760088DBE8 /* DogViewCell.swift */,
+				F02A7EDB226D10760088DBE8 /* DogViewCell.xib */,
+			);
+			path = DogCollection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F02A7EB8226CBE0C0088DBE8 /* Build configuration list for PBXNativeTarget "DogBreed" */;
 			buildPhases = (
+				2DBDE325AEAADFD1188E903C /* [CP] Check Pods Manifest.lock */,
 				F02A7EA2226CBE0B0088DBE8 /* Sources */,
 				F02A7EA3226CBE0B0088DBE8 /* Frameworks */,
 				F02A7EA4226CBE0B0088DBE8 /* Resources */,
@@ -124,33 +220,63 @@
 			files = (
 				F02A7EB4226CBE0C0088DBE8 /* LaunchScreen.storyboard in Resources */,
 				F02A7EB1226CBE0C0088DBE8 /* Assets.xcassets in Resources */,
-				F02A7EAF226CBE0B0088DBE8 /* Main.storyboard in Resources */,
+				F02A7EDD226D10760088DBE8 /* DogViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DBDE325AEAADFD1188E903C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogBreed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F02A7EA2226CBE0B0088DBE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F02A7EAC226CBE0B0088DBE8 /* ViewController.swift in Sources */,
+				F02A7EC6226CC1680088DBE8 /* DataGateway.swift in Sources */,
+				F02A7EC5226CC1680088DBE8 /* NetworkManager.swift in Sources */,
+				F02A7EC3226CC1680088DBE8 /* NetworkProtocols.swift in Sources */,
+				F02A7EAC226CBE0B0088DBE8 /* DogBreedListController.swift in Sources */,
+				F02A7ECF226D051C0088DBE8 /* DogBreedListViewModel.swift in Sources */,
+				F02A7ED9226D0CC20088DBE8 /* DogCollectionViewModel.swift in Sources */,
+				F02A7ED2226D08C60088DBE8 /* SubBreedListControllerViewController.swift in Sources */,
+				F02A7EDC226D10760088DBE8 /* DogViewCell.swift in Sources */,
+				F02A7EC2226CC1680088DBE8 /* DogModel.swift in Sources */,
+				F02A7ED7226D0BE80088DBE8 /* DogCollectionViewController.swift in Sources */,
+				F02A7EC9226CDC820088DBE8 /* StoreManager.swift in Sources */,
 				F02A7EAA226CBE0B0088DBE8 /* AppDelegate.swift in Sources */,
+				F02A7EC4226CC1680088DBE8 /* DogEndPoint.swift in Sources */,
+				F02A7ED4226D08EB0088DBE8 /* SubBreedListViewModel.swift in Sources */,
+				F02A7ECC226CE89C0088DBE8 /* DogModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F02A7EAD226CBE0B0088DBE8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F02A7EAE226CBE0B0088DBE8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F02A7EB2226CBE0C0088DBE8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +406,7 @@
 		};
 		F02A7EB9226CBE0C0088DBE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 853616F678721791165BD84D /* Pods-DogBreed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +425,7 @@
 		};
 		F02A7EBA226CBE0C0088DBE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86687D297E5DB154CF0F17D3 /* Pods-DogBreed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -336,6 +464,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F02A7ECA226CE89C0088DBE8 /* DogModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F02A7ECB226CE89C0088DBE8 /* DogModel.xcdatamodel */,
+			);
+			currentVersion = F02A7ECB226CE89C0088DBE8 /* DogModel.xcdatamodel */;
+			path = DogModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F02A7E9E226CBE0B0088DBE8 /* Project object */;
 }

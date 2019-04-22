@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Breed" representedClassName="Breed" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="child" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SubBreed" inverseName="parent" inverseEntity="SubBreed" syncable="YES"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DogImage" inverseName="breed" inverseEntity="DogImage" syncable="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="name"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="DogImage" representedClassName="DogImage" syncable="YES" codeGenerationType="class">
+        <attribute name="uri" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="breed" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Breed" inverseName="images" inverseEntity="Breed" syncable="YES"/>
+        <relationship name="subBreed" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SubBreed" inverseName="images" inverseEntity="SubBreed" syncable="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="uri"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="SubBreed" representedClassName="SubBreed" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DogImage" inverseName="subBreed" inverseEntity="DogImage" syncable="YES"/>
+        <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Breed" inverseName="child" inverseEntity="Breed" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Breed" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="DogImage" positionX="-45" positionY="18" width="128" height="90"/>
+        <element name="SubBreed" positionX="-18" positionY="63" width="128" height="90"/>
+    </elements>
+</model>
